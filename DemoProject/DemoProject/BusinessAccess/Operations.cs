@@ -7,10 +7,8 @@ namespace DemoProject.BusinessAccess
 {
     public class Operations
     {
-        public int Add()
+        public int Add(int a,int b)
         {
-            int a = 10;
-            int b = 20;
             return (a + b);
         }
     }
