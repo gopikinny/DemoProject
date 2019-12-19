@@ -15,9 +15,9 @@ namespace DemoProject.BusinessAccess
         {
             return (a - b);
         }
-        public int Mul(int a, int b)
+        public int Mul(int a, int b,int c)
         {
-            return (a - b);
+            return (a * b * c);
         }
     }
 }
