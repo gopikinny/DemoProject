@@ -9,8 +9,8 @@ namespace DemoProject.BusinessAccess
     {
         public int Add()
         {
-            int a = 10;
-            int b = 20;
+            var a = 10;
+            var b = 20;
             return (a + b);
         }
     }
